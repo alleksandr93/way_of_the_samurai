@@ -3,9 +3,9 @@ import s from './Post.module.scss';
 
 type PostProps ={
     message:string
-    likeCouns:number
+    likesCouns:number
 }
-export const Post:React.FC<PostProps> = ({message,likeCouns}) => {
+export const Post:React.FC<PostProps> = ({message,likesCouns}) => {
 debugger
     return (
         <div className={s.item}>
@@ -13,7 +13,7 @@ debugger
                  alt=""/>
             {message}
             <div>
-                <span>{`${likeCouns} Likes`}</span>
+                <span>{`${likesCouns} Likes`}</span>
             </div>
         </div>
     );

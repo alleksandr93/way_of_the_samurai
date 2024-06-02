@@ -17,8 +17,8 @@ export const MyPosts = () => {
                 New post
             </div>
             <div className={s.posts}>
-                <Post likeCouns={15} message={'Hi, how are you?'}/>
-                <Post likeCouns={20} message={'it\'s my first post'}/>
+                <Post likesCouns={0} message={'Hi, how are you?'}/>
+                <Post likesCouns={23} message={'it\'s my first post'}/>
             </div>
         </div>
     );
