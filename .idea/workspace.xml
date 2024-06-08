@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db864c7-c846-4588-b415-241d9b604fe1" name="Changes" comment="lesson 16 props">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
+    <list default="true" id="3db864c7-c846-4588-b415-241d9b604fe1" name="Changes" comment="lesson 18 create component Dialogs.tsx">
+      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Music/music.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/news.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Setting/Setting.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Setting/setting.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -63,7 +66,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Learn/incubator/way_of_the_samurai/src/components/Profile/MyPosts/Post&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Learn/incubator/way_of_the_samurai/src/components/Setting&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,6 +80,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Learn\incubator\way_of_the_samurai\src\components\Setting" />
+      <recent name="C:\Learn\incubator\way_of_the_samurai\src\components\Music" />
       <recent name="C:\Learn\incubator\way_of_the_samurai\src\components\Profile\MyPosts\Post" />
       <recent name="C:\Learn\incubator\way_of_the_samurai\src\components\Profile\MyPosts" />
     </key>
@@ -116,7 +122,11 @@
       <workItem from="1715424676235" duration="6334000" />
       <workItem from="1715440330382" duration="6073000" />
       <workItem from="1715534271812" duration="2000" />
-      <workItem from="1717347033893" duration="3559000" />
+      <workItem from="1717347033893" duration="4325000" />
+      <workItem from="1717671629743" duration="2738000" />
+      <workItem from="1717674390506" duration="821000" />
+      <workItem from="1717859176227" duration="5973000" />
+      <workItem from="1717869568297" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 12">
       <option name="closed" value="true" />
@@ -142,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715446355749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson 18 create component Dialogs.tsx">
+      <option name="closed" value="true" />
+      <created>1717351443127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717351443127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +170,7 @@
     <MESSAGE value="lesson 12" />
     <MESSAGE value="lesson 14 module css i am used scss" />
     <MESSAGE value="lesson 16 props" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 16 props" />
+    <MESSAGE value="lesson 18 create component Dialogs.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 18 create component Dialogs.tsx" />
   </component>
 </project>
